@@ -1,0 +1,111 @@
+
+        * {
+            font-family: 'Salsa', cursive;
+            text-decoration: none;
+        }
+
+        .ido h1 {
+            background-color: green;
+            width: 100%;
+            text-align: center;
+            color: black;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: rgb(25, 28, 26);
+        }
+
+        .navb a {
+            float: left;
+            display: block;
+            color: #e1eae0;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .se a {
+            text-decoration: none;
+            align-content: end;
+            color: white;
+            font-size: 35px;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+
+        .navb a:hover {
+            background: #ddd;
+            color: black;
+        }
+
+        .intro {
+            background-color: indigo;
+            width: 100%;
+            color: aquamarine;
+        }
+
+        .total{
+            display: flex;
+        }
+
+        .content{
+            width:1318px;
+            height:fit-content;
+            background-color:greenyellow;
+            border: 1px solid white;
+            
+        }
+
+        .content h2{
+            text-decoration: underline;
+        }
+
+        .side{
+            background-color: aquamarine;
+            width:200px;
+        }
+        
+        .side a{
+            color: black;
+        }
+
+        .side ul{
+            text-decoration: none;
+        }
+
+        .description {
+            width: 100%;
+            height: 200px;
+            background-color: rgb(38, 36, 36);
+            column-count: 4;
+            text-align: center;
+            column-gap: 35px;
+            column-rule: solid black 1px;
+            padding-top: 25px;
+            padding-right: 25px;
+            padding-left: 25px;
+            border: solid black 2px;
+        }
+
+        .description h3 {
+            padding-left: 40px;
+            text-decoration: underline;
+            padding-right: 40px;
+            color: aqua;
+        }
+
+        .description a {
+            text-decoration: none;
+            color: aqua;
+            display: inline;
+            font-size: small;
+        }
+
+        .description a:hover {
+            color: red;
+            border-bottom: 2px solid red;
+        }
+   
